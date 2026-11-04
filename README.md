@@ -45,7 +45,7 @@ Dưới đây là bảng thống kê kết quả chạy thực nghiệm giữa h
 | **Standard DFS** | $4 \times 4$ | 13 | 1 | ~0.05 - 0.08 ms |
 | **DFS + MRV** | $4 \times 4$ | 12 | 0 | ~0.2 - 0.5 ms |
 | **Standard DFS** | $6 \times 6$ | 292 | 268 | ~0.1 - 1.5 ms |
-| **DFS + MRV** | $6 \times 6$ | 41 | 17 | ~2.4 - 3.5 ms |
+| **DFS + MRV** | $6 \times 6$ | 41 | 17 | ~1 - 3.5 ms |
 
 > **Nhận xét:** Chiến lược MRV làm giảm đáng kể số nút cần duyệt và số lần quay lui trên các bảng Sudoku có kích thước lớn hơn ($6 \times 6$).
 
